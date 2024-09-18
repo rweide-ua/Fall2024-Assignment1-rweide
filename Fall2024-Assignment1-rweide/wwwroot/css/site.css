@@ -9,10 +9,77 @@
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: #363764;
+}
+
+p {
+    color: white;
 }
 
 body {
   margin-bottom: 60px;
+}
+
+@font-face {
+    font-family: 'BTTFLogo';
+    src: url('../fonts/BTTF.ttf') format('truetype');
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serifsans-serif;
+}
+
+.centered_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    color: red;
+    font-family: 'BTTFLogo';
+    letter-spacing: -0.08em;
+    -webkit-text-stroke: 2px #5cade3;
+    text-stroke: 2px lightblue;
+}
+
+.logo_top {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(red 20%, yellow 80%);
+    color: transparent;
+    background-clip: text;
+}
+
+.logo_small {
+    font-size: 1.55em;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(yellow, red 60%);
+    color: transparent;
+    background-clip: text;
+}
+
+.logo_medium {
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(yellow, red 70%);
+    color: transparent;
+    background-clip: text;
 }
